@@ -1,0 +1,11 @@
+public class myReverse {
+    public static void main(String[] args) {
+        int num=54321,reverse=0; //This 54321 is any input.you can Scan new number if you want.
+        while(num !=0){
+            int a=num%10;
+            reverse=reverse*10 + a;
+            num=num/10;
+        }
+        System.out.println(reverse);
+    }
+}
