@@ -8,6 +8,7 @@ public class myReverse {
             reverse=reverse*10 + a;
             num=num/10;
         }
+        //print
         System.out.println(reverse);
     }
 }
